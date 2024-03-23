@@ -86,6 +86,7 @@ export default function RootLayout({ children }: RootLayoutProps) {
           className={cn(
             "min-h-screen bg-background antialiased",
             fontSans.className
+            // font-sans
           )}
         >
           <ThemeProvider

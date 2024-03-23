@@ -36,8 +36,9 @@ export default function RootLayout({ children }: RootLayoutProps) {
         <head />
         <body
           className={cn(
-            "bg-background min-h-screen font-sans antialiased",
+            "bg-background min-h-screen  antialiased",
             fontSans.variable
+            // font-sans
           )}
         >
           <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
