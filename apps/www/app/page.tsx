@@ -12,18 +12,29 @@ import {
   PageHeaderDescription,
   PageHeaderHeading,
 } from "@/components/page-header"
+import { TypewriterEffectSmooth } from "@/components/typewriter-effect"
 import { buttonVariants } from "@/registry/new-york/ui/button"
 import MailPage from "@/app/examples/mail/page"
 
 export default function IndexPage() {
+  const words = [
+    {
+      text: "Stand Out.",
+    },
+    {
+      text: "Stand Firm.",
+    },
+  ]
   return (
     <div className="container relative">
       <PageHeader>
         <Announcement />
-        <PageHeaderHeading>Build your component library</PageHeaderHeading>
+        {/* <PageHeaderHeading>Build your component library</PageHeaderHeading> */}
+        <TypewriterEffectSmooth words={words} />
         <PageHeaderDescription>
-          Beautifully designed components that you can copy and paste into your
-          apps. Accessible. Customizable. Open Source.
+          Forge a unique UI identity. Our library of bold, customizable
+          components lets you craft interfaces that break the mold. Open source
+          and accessible by design.
         </PageHeaderDescription>
         <PageActions>
           <Link href="/docs" className={cn(buttonVariants())}>
