@@ -19,7 +19,7 @@ export function SiteHeader() {
       <div className="container flex h-14 max-w-screen-2xl items-center">
         <div className="flex-flow  flex w-full flex-auto justify-between">
           <MainNav />
-          <nav className="flex items-center gap-6 text-sm">
+          <nav className="mr-4 hidden items-center gap-6 text-sm md:flex">
             <div className="flex">
               <Link
                 href="/docs"

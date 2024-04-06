@@ -261,7 +261,7 @@ const components = {
   }: React.ComponentProps<typeof TabsList>) => (
     <TabsList
       className={cn(
-        "w-full justify-start rounded-none border-b bg-transparent p-0",
+        "w-full justify-start rounded-md border border-accent-foreground bg-transparent px-1",
         className
       )}
       {...props}
@@ -273,7 +273,7 @@ const components = {
   }: React.ComponentProps<typeof TabsTrigger>) => (
     <TabsTrigger
       className={cn(
-        "relative h-9 rounded-none border-b-2 border-b-transparent bg-transparent px-4 pb-3 pt-2 font-semibold text-muted-foreground shadow-none transition-none data-[state=active]:border-b-primary data-[state=active]:text-foreground data-[state=active]:shadow-none",
+        "relative h-7 rounded-md border bg-transparent px-4 py-3 font-semibold text-muted-foreground shadow-none transition-none data-[state=active]:border data-[state=active]:text-foreground data-[state=active]:shadow-none",
         className
       )}
       {...props}
@@ -306,7 +306,7 @@ const components = {
   LinkedCard: ({ className, ...props }: React.ComponentProps<typeof Link>) => (
     <Link
       className={cn(
-        "flex w-full flex-col items-center rounded-xl border bg-card p-6 text-card-foreground shadow transition-colors hover:bg-muted/50 sm:p-10",
+        "flex w-full flex-col items-center rounded-xl border border-accent-foreground bg-card p-6 text-card-foreground shadow transition-colors hover:bg-muted/50 sm:p-10",
         className
       )}
       {...props}

@@ -71,11 +71,22 @@ module.exports = {
       },
     },
     extend: {
+      boxShadow: {
+        neoshadow: "3px 3px 0px 0px hsl(var(--neo-border))",
+        "neoshadow-avatar": "4px 4px 0px 0px hsl(var(--primary))",
+        "neoshadow-check": "0px 0px 0px 3px hsl(var(--primary))",
+        "neoshadow-radio": "0px 0px 0px 6px rgba(0, 236, 251, 0.60)",
+      },
       colors: {
+        "sky-blue": "rgba(0, 236, 251, 0.36)",
+        "sky-blue-50": "rgba(0, 236, 251, 0.18)",
+        "sky-blue-h": "rgba(0, 236, 251, 0.50)",
+        h: "hsl(53, 80%, 6%)",
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
         ring: "hsl(var(--ring))",
         background: "hsl(var(--background))",
+        neobackground: "hsl(var(--neo-background))",
         foreground: "hsl(var(--foreground))",
         primary: {
           DEFAULT: "hsl(var(--primary))",
@@ -191,11 +202,22 @@ const config = {
       },
     },
     extend: {
+      boxShadow: {
+        neoshadow: "3px 3px 0px 0px hsl(var(--neo-border))",
+        "neoshadow-avatar": "4px 4px 0px 0px hsl(var(--primary))",
+        "neoshadow-check": "0px 0px 0px 3px hsl(var(--primary))",
+        "neoshadow-radio": "0px 0px 0px 6px rgba(0, 236, 251, 0.60)",
+      },
       colors: {
+        "sky-blue": "rgba(0, 236, 251, 0.36)",
+        "sky-blue-50": "rgba(0, 236, 251, 0.18)",
+        "sky-blue-h": "rgba(0, 236, 251, 0.50)",
+        h: "hsl(53, 80%, 6%)",
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
         ring: "hsl(var(--ring))",
         background: "hsl(var(--background))",
+        neobackground: "hsl(var(--neo-background))",
         foreground: "hsl(var(--foreground))",
         primary: {
           DEFAULT: "hsl(var(--primary))",

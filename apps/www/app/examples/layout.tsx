@@ -24,10 +24,10 @@ interface ExamplesLayoutProps {
 export default function ExamplesLayout({ children }: ExamplesLayoutProps) {
   return (
     <>
-      <div className="container relative">
-        <PageHeader>
+      <div className="container relative ">
+        <PageHeader className="py-8 md:py-12 md:pb-8 lg:py-24 lg:pb-20">
           <Announcement />
-          <PageHeaderHeading className="hidden md:block">
+          <PageHeaderHeading className="hidden md:block ">
             Check out some examples
           </PageHeaderHeading>
           <PageHeaderHeading className="md:hidden">Examples</PageHeaderHeading>
@@ -55,7 +55,7 @@ export default function ExamplesLayout({ children }: ExamplesLayoutProps) {
         </PageHeader>
         <section>
           <ExamplesNav />
-          <div className="overflow-hidden rounded-[0.5rem] border bg-background shadow-md md:shadow-xl">
+          <div className="overflow-hidden rounded-[0.5rem] border border-accent-foreground bg-background shadow-neoshadow md:shadow-xl">
             {children}
           </div>
         </section>
