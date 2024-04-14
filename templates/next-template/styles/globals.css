@@ -16,7 +16,7 @@
     --accordion-background: 60 15% 95%;
 
     --border: 214.3 31.8% 91.4%;
-    --neo-border: 222.2 47.4% 11.2%;
+    --accent-foreground: 222.2 47.4% 11.2%;
     --input: 214.3 31.8% 91.4%;
 
     --card: 0 0% 100%;
@@ -55,7 +55,7 @@
     --accordion-background: 60 14% 10%;
 
     --border: 216 34% 17%;
-    --neo-border: 210 40% 98%;
+    --accent-foreground: 210 40% 98%;
     --input: 216 34% 17%;
 
     --card: 224 71% 4%;

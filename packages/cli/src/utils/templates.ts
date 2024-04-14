@@ -72,7 +72,7 @@ module.exports = {
     },
     extend: {
       boxShadow: {
-        neoshadow: "3px 3px 0px 0px hsl(var(--neo-border))",
+        neoshadow: "3px 3px 0px 0px hsl(var(--accent-foreground))",
         "neoshadow-avatar": "4px 4px 0px 0px hsl(var(--primary))",
         "neoshadow-check": "0px 0px 0px 3px hsl(var(--primary))",
         "neoshadow-radio": "0px 0px 0px 6px rgba(0, 236, 251, 0.60)",
@@ -203,7 +203,7 @@ const config = {
     },
     extend: {
       boxShadow: {
-        neoshadow: "3px 3px 0px 0px hsl(var(--neo-border))",
+        neoshadow: "3px 3px 0px 0px hsl(var(--accent-foreground))",
         "neoshadow-avatar": "4px 4px 0px 0px hsl(var(--primary))",
         "neoshadow-check": "0px 0px 0px 3px hsl(var(--primary))",
         "neoshadow-radio": "0px 0px 0px 6px rgba(0, 236, 251, 0.60)",

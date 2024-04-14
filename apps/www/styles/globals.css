@@ -17,7 +17,7 @@
     --accordion-background: 60 15% 95%;
 
     --neo: 184, 100%, 47%;
-    --neo-border: 0 0% 9%;
+    --accent-foreground: 0 0% 9%;
     --neo-hover: 184, 100%, 45%;
     --neo-shadow: 184, 100%, 45%;
 
@@ -45,7 +45,7 @@
     --primary-foreground: 240 10% 3.9%;
 
     --neo: 184, 100%, 40%;
-    --neo-border: 0 0% 98%;
+    --accent-foreground: 0 0% 98%;
     --neo-hover: 184, 100%, 42%;
 
     --secondary: 240 3.7% 15.9%;

@@ -14,7 +14,7 @@ module.exports = {
     },
     extend: {
       boxShadow: {
-        neoshadow: "3px 3px 0px 0px hsl(var(--neo-border))",
+        neoshadow: "3px 3px 0px 0px hsl(var(--accent-foreground))",
         "neoshadow-avatar": "4px 4px 0px 0px hsl(var(--primary))",
         "neoshadow-check": "0px 0px 0px 3px hsl(var(--primary))",
         "neoshadow-radio": "0px 0px 0px 6px rgba(0, 236, 251, 0.60)",
@@ -38,7 +38,7 @@ module.exports = {
           DEFAULT: "hsl(var(--neo))",
           foreground: "hsl(var(--neo-foreground))",
           hover: "hsl(var(--neo-hover))",
-          border: "hsl(var(--neo-border))",
+          border: "hsl(var(--accent-foreground))",
         },
         secondary: {
           DEFAULT: "hsl(var(--secondary))",
