@@ -61,7 +61,7 @@ export async function getRegistryBaseColors() {
     },
     {
       name: "neo",
-      label: "neo",
+      label: "Neo",
     },
   ]
 }
