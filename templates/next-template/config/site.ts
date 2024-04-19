@@ -3,7 +3,7 @@ export type SiteConfig = typeof siteConfig
 export const siteConfig = {
   name: "Next.js",
   description:
-    "Beautifully designed components that you can copy and paste into your apps. Accessible. Customizable. Open Source.",
+    "Forge a unique UI identity. Our library of bold, customizable components lets you craft interfaces that break the mold. Open source and accessible by design.",
   mainNav: [
     {
       title: "Home",
@@ -11,8 +11,8 @@ export const siteConfig = {
     },
   ],
   links: {
-    twitter: "https://twitter.com/shadcn",
-    github: "https://github.com/shadcn/ui",
-    docs: "https://ui.shadcn.com",
+    twitter: "https://twitter.com/tobiowolabi_i",
+    github: "https://github.com/Tobexcode/neo-ui",
+    docs: "https://neo-ui.vercel.app/",
   },
 }

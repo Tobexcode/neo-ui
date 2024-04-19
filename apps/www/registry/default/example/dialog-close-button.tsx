@@ -34,7 +34,7 @@ export default function DialogCloseButton() {
             </Label>
             <Input
               id="link"
-              defaultValue="https://ui.shadcn.com/docs/installation"
+              defaultValue="https://neo-ui.vercel.app/docs/installation"
               readOnly
             />
           </div>

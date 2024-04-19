@@ -633,7 +633,7 @@ export const themes = [
   },
   {
     name: "neo",
-    label: "neo",
+    label: "Neo",
     activeColor: {
       light: "184, 100%, 47%",
       dark: "184, 100%, 40%",

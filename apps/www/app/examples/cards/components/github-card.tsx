@@ -29,10 +29,11 @@ export function DemoGithub() {
     <Card>
       <CardHeader className="grid grid-cols-[1fr_110px] items-start gap-4 space-y-0">
         <div className="space-y-1">
-          <CardTitle>shadcn/ui</CardTitle>
+          <CardTitle>rare-ui</CardTitle>
           <CardDescription>
-            Beautifully designed components that you can copy and paste into
-            your apps. Accessible. Customizable. Open Source.
+            Forge a unique UI identity. Our library of bold, customizable
+            components lets you craft interfaces that break the mold. Open
+            source and accessible by design.
           </CardDescription>
         </div>
         <div className="flex items-center space-x-1 rounded-md bg-secondary text-secondary-foreground">

@@ -3,7 +3,7 @@ export const siteConfig = {
   url: "https://ui.shadcn.com",
   ogImage: "https://ui.shadcn.com/og.jpg",
   description:
-    "Beautifully designed components that you can copy and paste into your apps. Accessible. Customizable. Open Source.",
+    "Forge a unique UI identity. Our library of bold, customizable components lets you craft interfaces that break the mold. Open source and accessible by design.",
   links: {
     twitter: "https://twitter.com/shadcn",
     github: "https://github.com/shadcn-ui/ui",

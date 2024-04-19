@@ -30,11 +30,11 @@ export const metadata: Metadata = {
   ],
   authors: [
     {
-      name: "shadcn",
-      url: "https://shadcn.com",
+      name: "Rare-ui",
+      url: "https://neo-ui.vercel.app/",
     },
   ],
-  creator: "shadcn",
+  creator: "Oluwatobi Owolabi",
   openGraph: {
     type: "website",
     locale: "en_US",
